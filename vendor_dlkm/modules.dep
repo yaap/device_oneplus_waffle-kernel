@@ -308,6 +308,7 @@
 /vendor/lib/modules/msm_lmh_dcvs.ko:
 /vendor/lib/modules/synx-driver.ko: /vendor/lib/modules/ipclite.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/glink_pkt.ko: /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/oplus_bsp_tp_focal_common.ko: /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/qcom_glink_spss.ko: /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/wcd939x_slave_dlkm.ko: /vendor/lib/modules/swr_dlkm.ko
 /vendor/lib/modules/qseecom_dlkm.ko:
@@ -323,6 +324,7 @@
 /vendor/lib/modules/health_monitor.ko: /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/spss_utils.ko: /vendor/lib/modules/qcom_spss.ko /vendor/lib/modules/qcom_sysmon.ko /vendor/lib/modules/qcom_glink_spss.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/drm_display_helper.ko:
+/vendor/lib/modules/oplus_bsp_tp_ft3658u_spi.ko: /vendor/lib/modules/oplus_bsp_tp_focal_common.ko /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/pci-msm-drv.ko: /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/pcie-pdc.ko
 /vendor/lib/modules/msm_sharedmem.ko:
 /vendor/lib/modules/stm_console.ko: /vendor/lib/modules/stm_core.ko

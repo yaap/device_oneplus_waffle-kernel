@@ -194,7 +194,6 @@
 /lib/modules/coresight-tpda.ko: /lib/modules/coresight.ko
 /lib/modules/oplus_bsp_omrg.ko:
 /lib/modules/drm_dp_aux_bus.ko:
-/lib/modules/cpufreq_uag.ko: /lib/modules/sched-walt.ko /lib/modules/qcom-cpufreq-hw.ko /lib/modules/cpufreq_bouncing.ko /lib/modules/oplus_bsp_cpufreq_health.ko /lib/modules/oplus_bsp_omrg.ko /lib/modules/oplus_bsp_task_overload.ko /lib/modules/oplus_bsp_frame_boost.ko /lib/modules/oplus_bsp_sched_assist.ko
 /lib/modules/oplus_network_data_module.ko:
 /lib/modules/ua_cpu_ioctl.ko: /lib/modules/oplus_bsp_frame_boost.ko /lib/modules/oplus_bsp_sched_assist.ko
 /lib/modules/i2c-msm-geni.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/debug_symbol.ko /lib/modules/smem.ko

@@ -340,7 +340,6 @@ oplus_bsp_dfr_phoenix.ko
 oplus_bsp_dfr_reboot_speed.ko
 oplus_bsp_dfr_shutdown_speed.ko
 oplus_bsp_dfr_ubt.ko
-oplus_bsp_hybridswap_zram.ko
 oplus_bsp_ist_down.ko
 oplus_bsp_ist_up.ko
 oplus_bsp_kswapd_opt.ko
@@ -374,8 +373,6 @@ oplus_bsp_tp_tcm_S3910.ko
 oplus_bsp_tp_td4377_noflash.ko
 oplus_bsp_tri_key.ko
 oplus_bsp_uff_fp_driver.ko
-oplus_bsp_zram_opt.ko
-oplus_bsp_zsmalloc.ko
 oplus_connectivity_routerboost.ko
 oplus_connectivity_sla.ko
 oplus_freqqos_monitor.ko

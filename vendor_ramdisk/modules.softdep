@@ -5,7 +5,6 @@ softdep oplus_bsp_uff_fp_driver pre:mtk_disp_notify
 softdep mpam pre: qcom_scmi_client
 softdep qcom_pmu_lib pre: qcom_scmi_client
 softdep msm_performance pre: qcom_scmi_client
-softdep ipclite pre: qcom_hwspinlock
 softdep dynpf_scmi pre: qcom_scmi_client
 softdep qsee_ipc_irq_bridge pre: qcom_ipcc
 softdep smem pre: qcom_hwspinlock

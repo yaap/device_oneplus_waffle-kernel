@@ -73,6 +73,13 @@ qcom_iommu_debug.ko
 drm_dp_aux_bus.ko
 drm_display_helper.ko
 lt9611uxc.ko
+smem.ko
+oplus_ftm_mode.ko
+buildvariant.ko
+oplus_bsp_boot_projectinfo.ko
+boot_mode.ko
+oplusboot.ko
+olc.ko
 oplus_bsp_fw_update.ko
 oplus_bsp_tp_notify.ko
 qseecom_proxy.ko

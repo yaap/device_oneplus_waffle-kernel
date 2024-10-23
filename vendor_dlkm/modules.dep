@@ -1,6 +1,6 @@
 /vendor/lib/modules/audio_prm_dlkm.ko: /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/oplus_mm_kevent_fb.ko /vendor/lib/modules/oplus_mm_kevent.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/leds-aw20198.ko:
-/vendor/lib/modules/oplus_bsp_tp_syna_common.ko: /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/oplus_bsp_tp_syna_common.ko: /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/olc.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/device_info.ko /vendor/lib/modules/boot_mode.ko /vendor/lib/modules/oplus_charger_present.ko /vendor/lib/modules/oplus_ftm_mode.ko /vendor/lib/modules/oplus_bsp_boot_projectinfo.ko /vendor/lib/modules/oplusboot.ko /vendor/lib/modules/buildvariant.ko /vendor/lib/modules/smem.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/hdmi_dlkm.ko: /vendor/lib/modules/msm_ext_display.ko
 /vendor/lib/modules/cnss_plat_ipc_qmi_svc.ko: /vendor/lib/modules/qmi_helpers.ko
 /vendor/lib/modules/oplus_bsp_mxm_up.ko: /vendor/lib/modules/oplus_bsp_tri_key.ko /vendor/lib/modules/panel_event_notifier.ko
@@ -85,7 +85,7 @@
 /vendor/lib/modules/ubwcp.ko:
 /vendor/lib/modules/altmode-glink.ko: /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/coresight-tmc.ko: /vendor/lib/modules/usb_f_qdss.ko /vendor/lib/modules/coresight-csr.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/repeater.ko /vendor/lib/modules/redriver.ko /vendor/lib/modules/coresight.ko /vendor/lib/modules/wcd_usbss_i2c.ko /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/oplus_mm_kevent_fb.ko /vendor/lib/modules/oplus_mm_kevent.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
-/vendor/lib/modules/oplus_bsp_tp_tcm_S3910.ko: /vendor/lib/modules/oplus_bsp_tp_syna_common.ko /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/oplus_bsp_tp_tcm_S3910.ko: /vendor/lib/modules/oplus_bsp_tp_syna_common.ko /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/olc.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/device_info.ko /vendor/lib/modules/boot_mode.ko /vendor/lib/modules/oplus_charger_present.ko /vendor/lib/modules/oplus_ftm_mode.ko /vendor/lib/modules/oplus_bsp_boot_projectinfo.ko /vendor/lib/modules/oplusboot.ko /vendor/lib/modules/buildvariant.ko /vendor/lib/modules/smem.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/msm_geni_serial.ko:
 /vendor/lib/modules/phy-msm-ssusb-qmp.ko:
 /vendor/lib/modules/mem-offline.ko:
@@ -297,7 +297,7 @@
 /vendor/lib/modules/oplus_secure_guard.ko:
 /vendor/lib/modules/wlan_firmware_service.ko: /vendor/lib/modules/qmi_helpers.ko
 /vendor/lib/modules/cpucp_log.ko:
-/vendor/lib/modules/oplus_bsp_synaptics_tcm2.ko: /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/oplus_bsp_synaptics_tcm2.ko: /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/olc.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/device_info.ko /vendor/lib/modules/oplus_bsp_boot_projectinfo.ko /vendor/lib/modules/oplusboot.ko /vendor/lib/modules/buildvariant.ko /vendor/lib/modules/smem.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/pinctrl-spmi-mpp.ko:
 /vendor/lib/modules/rmnet_shs.ko: /vendor/lib/modules/rmnet_core.ko /vendor/lib/modules/rmnet_ctl.ko /vendor/lib/modules/ipam.ko /vendor/lib/modules/usb_f_gsi.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/repeater.ko /vendor/lib/modules/redriver.ko /vendor/lib/modules/rmnet_mem.ko /vendor/lib/modules/gsim.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/wcd_usbss_i2c.ko /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/oplus_mm_kevent_fb.ko /vendor/lib/modules/oplus_mm_kevent.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/qcom_stats.ko:
@@ -312,7 +312,7 @@
 /vendor/lib/modules/qcom_glink_spss.ko: /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/wcd939x_slave_dlkm.ko: /vendor/lib/modules/swr_dlkm.ko
 /vendor/lib/modules/qseecom_dlkm.ko:
-/vendor/lib/modules/oplus_bsp_tp_common.ko: /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/oplus_bsp_tp_common.ko: /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/olc.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/device_info.ko /vendor/lib/modules/boot_mode.ko /vendor/lib/modules/oplus_charger_present.ko /vendor/lib/modules/oplus_ftm_mode.ko /vendor/lib/modules/oplus_bsp_boot_projectinfo.ko /vendor/lib/modules/oplusboot.ko /vendor/lib/modules/buildvariant.ko /vendor/lib/modules/smem.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/memlat.ko:
 /vendor/lib/modules/radio-i2c-rtc6226-qca.ko:
 /vendor/lib/modules/llcc-qcom.ko:
@@ -324,7 +324,7 @@
 /vendor/lib/modules/health_monitor.ko: /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/spss_utils.ko: /vendor/lib/modules/qcom_spss.ko /vendor/lib/modules/qcom_sysmon.ko /vendor/lib/modules/qcom_glink_spss.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/drm_display_helper.ko:
-/vendor/lib/modules/oplus_bsp_tp_ft3658u_spi.ko: /vendor/lib/modules/oplus_bsp_tp_focal_common.ko /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/oplus_bsp_tp_ft3658u_spi.ko: /vendor/lib/modules/oplus_bsp_tp_focal_common.ko /vendor/lib/modules/oplus_bsp_tp_common.ko /vendor/lib/modules/oplus_bsp_tp_custom.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko /vendor/lib/modules/olc.ko /vendor/lib/modules/oplus_bsp_fw_update.ko /vendor/lib/modules/device_info.ko /vendor/lib/modules/boot_mode.ko /vendor/lib/modules/oplus_charger_present.ko /vendor/lib/modules/oplus_ftm_mode.ko /vendor/lib/modules/oplus_bsp_boot_projectinfo.ko /vendor/lib/modules/oplusboot.ko /vendor/lib/modules/buildvariant.ko /vendor/lib/modules/smem.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/pci-msm-drv.ko: /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/pcie-pdc.ko
 /vendor/lib/modules/msm_sharedmem.ko:
 /vendor/lib/modules/stm_console.ko: /vendor/lib/modules/stm_core.ko

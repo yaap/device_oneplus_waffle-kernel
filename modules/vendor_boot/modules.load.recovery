@@ -190,6 +190,7 @@ cdsprm.ko
 fsa4480-i2c.ko
 adsp_sleepmon.ko
 panel_event_notifier.ko
+qbridge.ko
 dmesg_dumper.ko
 health_monitor.ko
 qfprom-sys.ko
@@ -341,6 +342,7 @@ oplus_bsp_tp_gt9966.ko
 oplus_bsp_tp_ilitek7807s.ko
 oplus_bsp_tp_ilitek_common.ko
 oplus_bsp_tp_novatek_common.ko
+oplus_bsp_tp_nt36528_noflash.ko
 oplus_bsp_tp_nt36532_noflash.ko
 oplus_bsp_tp_nt36672c_noflash.ko
 oplus_bsp_tp_syna_common.ko

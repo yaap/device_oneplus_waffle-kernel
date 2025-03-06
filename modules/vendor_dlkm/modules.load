@@ -65,6 +65,7 @@ cdsprm.ko
 fsa4480-i2c.ko
 adsp_sleepmon.ko
 panel_event_notifier.ko
+qbridge.ko
 dmesg_dumper.ko
 health_monitor.ko
 qfprom-sys.ko
@@ -140,6 +141,7 @@ qcom_lpm.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
 leds-qpnp-vibrator-ldo.ko
+leds-aw2023.ko
 leds-aw20198.ko
 qcom_pil_info.ko
 rproc_qcom_common.ko
@@ -220,6 +222,7 @@ oplus_bsp_tp_gt9966.ko
 oplus_bsp_tp_ilitek7807s.ko
 oplus_bsp_tp_ilitek_common.ko
 oplus_bsp_tp_novatek_common.ko
+oplus_bsp_tp_nt36528_noflash.ko
 oplus_bsp_tp_nt36532_noflash.ko
 oplus_bsp_tp_nt36672c_noflash.ko
 oplus_bsp_tp_syna_common.ko
@@ -228,6 +231,8 @@ oplus_bsp_tp_tcm_S3910.ko
 oplus_bsp_tp_td4377_noflash.ko
 oplus_bsp_tri_key.ko
 oplus_bsp_uff_fp_driver.ko
+oplus_bsp_zram_opt.ko
+oplus_bsp_zsmalloc.ko
 oplus_connectivity_routerboost.ko
 oplus_connectivity_sla.ko
 oplus_freqqos_monitor.ko
